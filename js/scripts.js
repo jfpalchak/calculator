@@ -1,15 +1,14 @@
-function saySomething(whatToSay) {
-  window.alert(whatToSay);
-}
-
+// business logic
 function add(number1, number2) {
     return number1 + number2;
 }
 
-saySomething("hi");
-const result = add(3, 5);
-window.alert(result);
+// UI logic
+const num1 = parseInt(prompt("enter a number:"));
+const num2 = parseInt(prompt("Enter another number:"));
 
-//
-const outputText = "The sum is " + result + ".";
-saySomething(outputText);
+window.alert(add(num1, num2));
+
+
+// const additionResult = add(10,5);
+// window.alert(additionResult);
