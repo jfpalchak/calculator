@@ -10,5 +10,6 @@ saySomething("hi");
 const result = add(3, 5);
 window.alert(result);
 
+//
 const outputText = "The sum is " + result + ".";
 saySomething(outputText);
